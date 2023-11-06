@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ecea73764.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="toggle">
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+
+    </div>
+    <header> 
+        <div class="logo">LOGO</div>
+        <nav>
+            <ul class="navLink">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>contact</button></a>
+    </header>
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script>
+    $(document).ready(function()){
+     $('.menu').click(function()){
+        $('ul').toggleClass('active');
+    }
+}
+  </script>
+</body>
+</html>
